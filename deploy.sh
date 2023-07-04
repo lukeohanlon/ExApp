@@ -8,4 +8,4 @@ cd ExampleApplication/
 
 npm install
 
-pm2 start ./bin/www --name example_app --env production
+pm2 start ./bin/www --name example_app
