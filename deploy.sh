@@ -5,3 +5,7 @@ sudo apt update && sudo apt install nodejs npm
 pm2 stop example_app
 # change directory into folder where application is downloaded
 cd ExampleApplication/
+
+npm install
+
+pm2 start ./bin/www --name example_app --env production
